@@ -1,3 +1,6 @@
+// JS PARA O USUÁRIO CONSEGUIR TIRAR A FOTO E ARMAZENAR 
+
+// declarando variáveis
 const botaoIniciarCamera = document.querySelector("[data-video-botao]");
 const campoCamera = document.querySelector("[data-camera]");
 const video = document.querySelector("[data-video]");
@@ -6,8 +9,10 @@ const canvas = document.querySelector("[data-video-canvas]");
 const mensagem = document.querySelector("[data-mensagem]");
 const botaoEnviarFoto = document.querySelector("[data-enviar]")
 
+// declara a imagemURL vazio para ter espaço para Armazenar alguma Imagem 
 let imagemURL = '';
 
+// Ouvidor de Evento para quando o Usuário clicar na Imagem pedir para Aceitar ou Não a captura de Imagem/Vídeo 
 botaoIniciarCamera.addEventListener('click', async function () {
     const iniciarVideo = await navigator.mediaDevices
         .getUserMedia({ video: true, audio: false });
