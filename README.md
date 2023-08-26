@@ -1,13 +1,35 @@
-<p align="center"> <img src="https://imgur.com/mIBmcEL.png" alt="Javascript: validando formulários"> </p>
+<h1 align="center"> Javascript - Banco</h1>
 
-<hr>
+<p align="center">
+Alura Banco - Banco Digital
+</p>
 
-<p align="center"> <img src="https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png" alt="Logo da Alura"> </p>
-<p align="center">Formulário de criação de contas para o banco virtual MoniBank.</p>
+---
 
-## Tecnologias utilizadas durante o curso
-* JavaScript
+<br>
 
-## Tecnologias utilizadas no projeto
-* HTML
-* CSS
+<p align="center">
+  <img style="border:2px solid black" alt="Imagem Principal" src="/img/IMG.png" width="100%">
+</p>
+
+---
+## 💻 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML5
+- CSS3
+- Javascript
+- Git e Github
+
+---
+
+## 🚧 Projeto
+
+Página de um Banco Digital, onde o usuário consegue cadastrar uma conta, onde o sistema verifica se os seus
+dados estão corretos
+O Usuário também deve fazer o Reconhecimento Facial, mandando uma foto para a Plataforma.
+
+Você pode ver o site neste link: [Javascript - Banco]()
+
+--- 
