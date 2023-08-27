@@ -36,6 +36,10 @@
     color: var(--azul-claro);
 }
 
+.breadcrumb__texto {
+    text-decoration: none;
+}
+
 .breadcrumb li:hover {
     transition: all .45s ease;
     color: var(--preto);
@@ -107,6 +111,11 @@
     font-size: 18px;
     line-height: 22px;
     color: var(--branco);
+}
+
+.formulario__botao:hover{
+    transition: all .45s ease;
+    transform: scale(1.08);
 }
 
 .formulario__imagem {
