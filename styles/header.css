@@ -4,13 +4,30 @@
     margin: 2em 1em;
 }
 
+@media (max-width: 640px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cabecalho-lista {
+        margin-top: 0rem !important;
+        justify-content: center !important;
+        padding: 0 1em !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        text-align: center !important;
+        gap: 1em !important;
+    }
+}
+
 .cabecalho-lista {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-basis: 100%;
     font-size: 18px;
-    margin: 0 2em;
+    margin: 0.5em 2em;
 }
 
 .cabecalho__logo-inicio {
