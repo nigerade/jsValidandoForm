@@ -20,15 +20,20 @@
     color: var(--azul-claro);
 }
 
+.cabecalho__logo-inicio:hover {
+    transition: all .45s ease;
+    color: var(--preto);
+}
+
 .cabecalho__logo-final {
     font-weight: 400;
     font-style: italic;
 }
 
 .cabecalho__pesquisa {
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     border-radius: 20px;
-    padding: .7em 1em;
+    padding: .9em 1em;
     width: 20vw;
 }
 
@@ -45,6 +50,11 @@
     color: var(--preto);
 }
 
+.cabecalho-lista__link:hover {
+    transition: all .45s ease;
+    color: var(--azul-claro);
+}
+
 .cabecalho-lista__item-botao {
     font-weight: 600;
     border-radius: 20px;
@@ -56,6 +66,11 @@
 .cabecalho-lista__item-botao--azul {
     background-color: var(--azul-claro);
     color: var(--branco);
+}
+
+.cabecalho-lista__item-botao:hover {
+    transition: all .45s ease;
+    color: var(--preto);
 }
 
 @media screen and (max-width: 900px) {

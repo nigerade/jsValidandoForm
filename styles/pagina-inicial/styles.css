@@ -27,7 +27,7 @@
     font-size: 28px;
     text-align: center;
     font-weight: 600;
-    margin: 1em 0;
+    margin: 2em 0;
 }
 
 .lista-servicos {
@@ -45,6 +45,11 @@
     text-align: center;
     padding: .5em 0;
     border-radius: 0px 0px 20px 20px;
+}
+
+.item-servicos__titulo:hover {
+    transition: all .45s ease;
+    color: var(--azul-claro);
 }
 
 .item-servicos__imagem {
@@ -73,13 +78,18 @@
     width: 50%;
     text-align: center;
     background: var(--preto);
-    border-radius: 20px;
+    border-radius: 1.5rem;
     color: var(--branco);
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     padding: 0.5em;
+}
+
+.conta__botao:hover{
+    transition: all .45s ease;
+    color: var(--azul-claro);
 }
 
 .beneficios-lista {
@@ -115,7 +125,7 @@
 }
 
 .icone-gato {
-    background-image: url('../../img/Gato.png')
+    background-image: url('../../img/Gato.png');
 }
 
 .beneficios-lista__titulo {
@@ -124,6 +134,11 @@
     line-height: 24px;
     color: var(--azul-claro);
     margin: .5em 0;
+}
+
+.beneficios-lista__titulo:hover {
+    transition: all .45s ease;
+    color: var(--preto);
 }
 
 @media screen and (max-width: 798px) {
