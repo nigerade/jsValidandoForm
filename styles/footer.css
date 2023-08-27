@@ -18,6 +18,11 @@
     line-height: 22px;
 }
 
+.rodape__titulo:hover {
+    transition: all .45s ease;
+    color: var(--azul-claro);
+}
+
 .rodape__lista li {
     margin: 1em 0;
 }
@@ -30,10 +35,20 @@
     color: var(--branco);
 }
 
+.rodape__link:hover {
+    transition: all .45s ease;
+    color: var(--azul-claro);
+}
+
 .rodape__logo {
     margin-top: .6em;
     font-size: 28px;
     line-height: 36px;
+}
+
+.rodape__logo:hover {
+    transition: all .45s ease;
+    color: var(--azul-claro);
 }
 
 .rodape__logo--negrito {

@@ -79,7 +79,11 @@
     width: 100%;
     padding: 1em;
     margin-top: .5em;
+}
 
+.campo__escrita:hover {
+    transition: all .45s ease;
+    border: 2px solid var(--preto);
 }
 
 .campo__escrita--menor {
@@ -147,6 +151,11 @@
 .formulario__mensagem--sucesso,
 .formulario__camera--exibir {
     display: block;
+}
+
+.termos__input:hover {
+    transition: all .45s ease;
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 900px) {
